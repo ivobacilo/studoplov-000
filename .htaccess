@@ -1,0 +1,13 @@
+
+# HTID:22794033: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+IndexIgnore /slike/
+
+
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22794033:

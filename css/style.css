@@ -1,0 +1,136 @@
+main {
+    padding: 10px;
+    background-color: gainsboro;
+}
+
+header{
+    background-color: #1c3f60 !important;
+    
+}
+
+
+footer {
+    padding: 20px;
+    background-color: midnightblue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+nav{
+    background-color: #1c3f60 !important;
+}
+
+nav li a {
+    display: block;
+}
+
+.nav-item:hover {
+    color: black;
+    border-radius: 10px;
+    transition: linear 0.2s;
+    font-size: 25px;
+    margin-bottom: 0px;
+    margin-top: -10px;
+    position: relative;
+    font-weight: bold;
+}
+
+header ul li {
+    border-radius: 10px;
+    margin-right: 15px;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+header img {
+    width: 12%;
+    padding: 0px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2f2f2f;
+    color: white;
+    font-weight: bold;
+    transition: linear 0.2s;
+}
+
+
+.izbornik li {
+    width: 100% !important;
+    margin-right: 0px !important;
+}
+
+
+.izbornik a{
+    font-weight: bold;
+}
+
+.izbornik a:hover {
+    background-color: darkblue !important;
+    color: white !important;
+}
+
+.izbornik {
+    min-width: 260px !important;
+}
+
+
+#obavijesti {
+    min-width: 600px;
+    margin-left: -250px;
+}
+
+
+
+#tablica {
+    width: 100%;
+}
+
+#obavijesti a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+#obavijestiNAV::after {
+    position: absolute;
+    margin-top: -7px;
+    margin-left: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 1px;
+
+    font-size: 13px;
+    width: 23px;
+    text-align: center;
+}
+
+#obavijestiNAV i {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form-check-input{
+    margin-left: 0px !important;
+    border: 1px solid black !important;
+    margin-right: 5px !important;
+}
+
+.pauziraj{
+  
+    margin-left: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-weight: normal;
+}
+
+#pauziraj{
+    margin-left: 10px;
+}
+
+#pauzaDROP{
+    width: 400px !important;
+}
